@@ -1,0 +1,24 @@
+
+import 'package:flutter/material.dart';
+
+class MyInputDecoration extends InputDecoration{
+
+  // 생성자 생성
+  MyInputDecoration(String hint) : super(
+
+
+    hintText: hint,
+    enabledBorder: OutlineInputBorder(
+    borderRadius: BorderRadius.circular(20),
+    ),
+    focusedBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(20),
+    ),
+    errorBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(20),
+    ),
+    focusedErrorBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(20),
+    ),
+  );
+}
